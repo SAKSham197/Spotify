@@ -1,4 +1,17 @@
+
 {
-    "title":"Honey Singh",
-    "description":"Desi Hip-Hop"
+  "title": "Honey Singh",
+  "description": "Desi Hip-Hop",
+  "songs": [
+    "Angreji Beat.mp3",
+    "BROWN RANG.mp3",
+    "Blue Eyes .mp3",
+    "Breakup Party.mp3",
+    "Dope Shope.mp3",
+    "GET UP JAWANI.mp3",
+    "HIGH HEELS.mp3",
+    "Love Dose.mp3",
+    "Party With The Bhoothnath.mp3",
+    "Sunny Sunny.mp3"
+  ]
 }

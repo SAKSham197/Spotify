@@ -1,4 +1,17 @@
+
 {
-    "title":"Phonk Music",
-    "description":"Gritty Beats Zone"
+  "title": "Phonk",
+  "description": "Gritty Beats Zone",
+  "songs": [
+    "Automotivo Bibi Fogosa.mp3",
+    "DNA.mp3",
+    "HELLDRIFT 2.mp3",
+    "IM BETTER.mp3",
+    "MURDER IN MY MIND.mp3",
+    "One Chance.mp3",
+    "POOR (Phonk).mp3",
+    "SLAY!.mp3",
+    "THUNDERSTORM.mp3",
+    "WORTH NOTHING.mp3"
+  ]
 }

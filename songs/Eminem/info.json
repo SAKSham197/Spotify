@@ -1,4 +1,19 @@
+
 {
-    "title":"Eminem",
-    "description":"Rap Legend Chronicles"
+  "title": "Eminem",
+  "description": "Rap Legend Chronicles",
+  "songs": [
+    "Eminem - Guilty Conscience.mp3",
+    "Eminem - My Name Is.mp3",
+    "Eminem - Not Afraid.mp3",
+    "Eminem - Sing For The Moment.mp3",
+    "Eminem - The Real Slim Shady.mp3",
+    "Eminem - The Warning.mp3",
+    "Eminem - We Made You.mp3",
+    "Eminem - When I'm Gone.mp3",
+    "Eminem - Without Me.mp3",
+    "Eminem - superman.mp3"
+  ]
 }
+
+

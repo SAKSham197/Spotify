@@ -1,4 +1,17 @@
+
 {
-    "title":"Fresh Vibes",
-    "description":" Upbeat New Jams"
+  "title": "Fresh Vibes",
+  "description": "Upbeat New Jams",
+  "songs": [
+    "Charlie Puth - Hero.mp3",
+    "Juliet Ivy - is it my face.mp3",
+    "Just For Once (acoustic) - Yohan Marshall & Mali.mp3",
+    "Myles Smith - Stargazing.mp3",
+    "Sadie Jean - Shut Up About It.mp3",
+    "Sasha Alex Sloan - Cowboys Cry.mp3",
+    "The Marias - Echo.mp3",
+    "The Mountain Is You.mp3",
+    "Twenty One Pilots - The Craving.mp3",
+    "ZAYN - Stardust.mp3"
+  ]
 }

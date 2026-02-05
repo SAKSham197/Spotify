@@ -1,4 +1,17 @@
+
 {
-    "title":"Sad tone",
-    "description":"Melancholic Tunescape"
+  "title": "Sad Tone",
+  "description": "Melancholic Tunescape",
+  "songs": [
+    "Giveon - For Tonight.mp3",
+    "Giveon - Heartbreak Anniversary.mp3",
+    "Here's Your Perfect.mp3",
+    "Madison Beer - Reckless.mp3",
+    "Olivia Rodrigo - happier.mp3",
+    "Pink Sweat - At My Worst.mp3",
+    "SLANDER - Love is Gone.mp3",
+    "Sapientdream - Pastlive.mp3",
+    "The Weeknd - DIE FOR YOU.mp3",
+    "ZAYN & Sia - Dusk Till Dawn.mp3"
+  ]
 }

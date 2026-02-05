@@ -1,4 +1,17 @@
+
 {
-    "title":"Sigma mood",
-    "description":"Deep Electronic Waves"
+  "title": "Sigma Mood",
+  "description": "Deep Electronic Waves",
+  "songs": [
+    "Close Eyes.mp3",
+    "GigaChad Theme.mp3",
+    "INCOMING.mp3",
+    "INTERWORLD - METAMORPHOSIS.mp3",
+    "MONTAGEM CORAL.mp3",
+    "NEON BLADE.mp3",
+    "PRINCE OF DARKNESS.mp3",
+    "Phonky Town.mp3",
+    "RAVE.mp3",
+    "Sleepwalker.mp3"
+  ]
 }

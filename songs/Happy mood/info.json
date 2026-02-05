@@ -1,4 +1,18 @@
+
 {
-    "title":"Happy mood",
-    "description":" Joyful Melodies Galore"
+  "title": "Happy Mood",
+  "description": "Joyful Melodies Galore",
+  "songs": [
+    "CAN'T STOP THE FEELING!.mp3",
+    "Counting Stars.mp3",
+    "Faded.mp3",
+    "Heat Waves.mp3",
+    "Hymn For The Weekend.mp3",
+    "Let Me Love You.mp3",
+    "Perfect.mp3",
+    "Play Date.mp3",
+    "Shape Of You.mp3",
+    "Something Just Like This.mp3",
+    "You Belong With Me.mp3"
+  ]
 }

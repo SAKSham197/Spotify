@@ -1,4 +1,17 @@
+
 {
-    "title":"Spiritual",
-    "description":"Soulful Reverence Songs"
+  "title": "Spiritual",
+  "description": "Soulful Reverence Songs",
+  "songs": [
+    "Aarambh hai Prachand.mp3",
+    "Aasman Ko Chukar Dekha.mp3",
+    "Babam Bam _ Paradox _ Hustle 2.0.mp3",
+    "Deva Shree Ganesha.mp3",
+    "Hai Katha Sangram Ki.mp3",
+    "Hamare Sath Shree Raghunath.mp3",
+    "Har Har Shambhu Shiv Mahadeva.mp3",
+    "Ram siya Ram.mp3",
+    "Shiv Tandav Stotram.mp4",
+    "Shree Hanuman Chalisa.mp3"
+  ]
 }

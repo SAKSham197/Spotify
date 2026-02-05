@@ -1,4 +1,17 @@
+
 {
-    "title":"Old Songs",
-    "description":" Classic Retro Hits"
+  "title": "Old Songs",
+  "description": "Classic Retro Hits",
+  "songs": [
+    "Aaj Mausam Bada Beimaan Hai.mp3",
+    "Aaja Aai Bahar.mp3",
+    "Aap Kyon Royen.mp3",
+    "Chodd Do Aanchal.mp3",
+    "Lag Jaa Gale.mp3",
+    "Likhe Jo Khat Tujhe.mp3",
+    "Log Kehte Hai Main Sharaabi Hoon.mp3",
+    "Main Kahi Kavi.mp3",
+    "Phir Wahi Raat Hai.mp3",
+    "Tum Bin Jaun Kahan.mp3"
+  ]
 }

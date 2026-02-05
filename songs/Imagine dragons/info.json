@@ -1,4 +1,17 @@
+
 {
-    "title":"Imagine Dragons",
-    "description":"Epic Rock Anthems"
+  "title": "Imagine Dragons",
+  "description": "Epic Rock Anthems",
+  "songs": [
+    "Imagine Dragons - Birds.mp3",
+    "Imagine Dragons - Demons.mp3",
+    "Imagine Dragons - Natural.mp3",
+    "Imagine Dragons - On Top Of The World.mp3",
+    "Imagine Dragons - Radioactive.mp3",
+    "Imagine Dragons - Thunder.mp3",
+    "Imagine Dragons - Walking The Wire.mp3",
+    "Imagine Dragons - Whatever It Takes.mp3",
+    "Imagine Dragons - Zero.mp3",
+    "Imagine Dragons, JID - Enemy.mp3"
+  ]
 }
