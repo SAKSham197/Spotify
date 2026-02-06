@@ -44,6 +44,7 @@ function playByIndex(index) {
     currentIndex = index;
     audio.src = `songs/${currentFolder}/${songs[index]}`;
     audio.play().catch(() => {});
+    // update main button immediately for responsive UI
     pauseBtn.src = "img/play.svg";
     songInfo.innerText = songs[index];
 
@@ -51,22 +52,26 @@ function playByIndex(index) {
 }
 
 function updateActiveSong() {
+    // reset all list item icons to default (pause)
     document.querySelectorAll(".songlists li").forEach(li => {
         li.classList.remove("active");
-        li.querySelector("img:last-child").src = "img/pause.svg";
+        const img = li.querySelector("img:last-child");
+        if (img) img.src = "img/pause.svg";
     });
 
+    // only the active item should mirror the main button
     const active = document.querySelector(
         `.songlists li[data-index="${currentIndex}"]`
     );
     if (active) {
         active.classList.add("active");
-        active.querySelector("img:last-child").src = "img/play.svg";
+        const img = active.querySelector("img:last-child");
+        if (img) img.src = pauseBtn.src;
     }
 }
 
 /* ================= LOAD SONGS ================= */
-async function loadSongs(folder) {
+async function loadSongs(folder, autoplay = false) {
     currentFolder = folder;
     songs = [];
 
@@ -95,9 +100,15 @@ async function loadSongs(folder) {
         });
     });
 
-    // Load a random song automatically
+    // Load a random song automatically (load paused by default)
     const randomIndex = Math.floor(Math.random() * songs.length);
-    playByIndex(randomIndex);
+    currentIndex = randomIndex;
+    audio.src = `songs/${currentFolder}/${songs[randomIndex]}`;
+    songInfo.innerText = songs[randomIndex];
+    // initial UI: show pause icon even though audio is paused
+    pauseBtn.src = "img/pause.svg";
+    updateActiveSong();
+    if (autoplay) audio.play().catch(() => {});
 }
 
 /* ================= ALBUMS ================= */
@@ -125,7 +136,8 @@ async function loadAlbums() {
 function attachCardListeners() {
     document.querySelectorAll(".card").forEach(card => {
         card.addEventListener("click", () => {
-            loadSongs(card.dataset.folder);
+            // when user clicks an album, load and start playing it
+            loadSongs(card.dataset.folder, true);
         });
     });
 }
@@ -136,11 +148,22 @@ pauseBtn.addEventListener("click", () => {
 
     if (audio.paused) {
         audio.play().catch(() => {});
-        pauseBtn.src = "img/play.svg";
     } else {
         audio.pause();
-        pauseBtn.src = "img/pause.svg";
     }
+});
+
+// Keep icons in sync with actual playback state
+audio.addEventListener("play", () => {
+    // when playback starts, main button should show play.svg (per requested inverted initial behavior)
+    pauseBtn.src = "img/play.svg";
+    updateActiveSong();
+});
+
+audio.addEventListener("pause", () => {
+    // when paused, main button should show pause.svg
+    pauseBtn.src = "img/pause.svg";
+    updateActiveSong();
 });
 
 nextBtn.addEventListener("click", () => {
